@@ -18,7 +18,7 @@ func fmtPrint(args ...tengo.Object) (ret tengo.Object, err error) {
 	if err != nil {
 		return nil, err
 	}
-	_, _ = fmt.Print(printArgs...)
+	_, _ = fmt.Println(printArgs...)
 	return nil, nil
 }
 
