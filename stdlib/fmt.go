@@ -55,7 +55,7 @@ func fmtPrintln(args ...tengo.Object) (ret tengo.Object, err error) {
 		return nil, err
 	}
 	printArgs = append(printArgs, "\n")
-	_, _ = fmt.Print(printArgs...)
+	_, _ = fmt.Println(printArgs...)
 	return nil, nil
 }
 
